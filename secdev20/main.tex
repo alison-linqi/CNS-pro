@@ -1,0 +1,68 @@
+\documentclass[conference, pdftex]{IEEEtran}
+\usepackage{url}
+\usepackage{float}
+\usepackage{verbatim}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\graphicspath{{./figs/ }}
+\usepackage[rightcaption]{sidecap}
+\usepackage{wrapfig}
+\usepackage{xcolor}
+\usepackage{subcaption}
+\usepackage{multirow}
+\usepackage{flexisym}
+\usepackage{enumerate}
+\usepackage[plain]{fancyref}
+\usepackage{xspace}
+\usepackage{booktabs}
+\usepackage{graphicx}
+%\usepackage{enumitem}
+%\newlist{steps}{enumerate}[leftmargin=1cm]{1}
+%\setlist[steps, 1]{label = Step \arabic*:}
+%\input{macros}
+\newcounter{inlineenum}
+\renewcommand{\theinlineenum}{\alph{inlineenum}}
+\newenvironment{inlineenum}
+{\unskip\ignorespaces\setcounter{inlineenum}{0}%
+	\renewcommand{\item}{\refstepcounter{inlineenum}{\textit{\theinlineenum})~}}}
+{\ignorespacesafterend}
+\pagestyle{plain}
+
+\newcommand{\sajid}[1]{{\color{blue} [Sajid: #1]}}
+\newcommand{\stackoverflow}{SoF}
+\newcommand{\sectag}{\textit{$<$security$>$}}
+
+\IEEEoverridecommandlockouts
+\begin{document}
+
+
+	
+	\title{Threat Modeling Android Apps : A Case Study}
+	
+	\maketitle
+	
+	\input{abstract}
+	
+	\input{introduction}
+	
+	\input{related}
+	
+	\input{background}
+	
+%	\input{methods}
+	
+	
+	\input{discussion}
+
+	
+	%\input{appendix}
+	
+	
+	{\footnotesize 
+		\bibliographystyle{IEEEtran}
+		\interlinepenalty=10000 % hack to solve 
+		\bibliography{IEEEabrv,references}
+	}
+	
+\end{document}
