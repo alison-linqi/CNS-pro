@@ -1,0 +1,417 @@
+%%% ====================================================================
+%%%  BibTeX-file{
+%%%     author          = "Gerry Murray",
+%%%     version         = "1.2",
+%%%     date            = "2 April 2012",
+%%%     filename        = "acmsmall-sample-bibfile.bib",
+%%%     address         = "ACM, NY",
+%%%     email           = "murray at hq.acm.org",
+%%%     codetable       = "ISO/ASCII",
+%%%     keywords        = "ACM Reference Format, bibliography, citation, references",
+%%%     supported       = "yes",
+%%%     docstring       = "This BibTeX database file contains 'bibdata' entries
+%%%                        that 'match' the examples provided in the Specifications Document
+%%%                        AND, also, 'legacy'-type bibs. It should assist authors in
+%%%                        choosing the 'correct' at-bibtype and necessary bib-fields
+%%%                        so as to obtain the appropriate ACM Reference Format output.
+%%%                        It also contains many 'Standard Abbreviations'. "
+%%%  }
+%%% ====================================================================
+
+% Journals
+
+% First the Full Name is given, then the abbreviation used in the AMS Math
+% Reviews, with an indication if it could not be found there.
+% Note the 2nd overwrites the 1st, so swap them if you want the full name.
+
+ %{AMS}
+ @String{AMSTrans = "American Mathematical Society Translations" }
+ @String{AMSTrans = "Amer. Math. Soc. Transl." }
+ @String{BullAMS = "Bulletin of the American Mathematical Society" }
+ @String{BullAMS = "Bull. Amer. Math. Soc." }
+ @String{ProcAMS = "Proceedings of the American Mathematical Society" }
+ @String{ProcAMS = "Proc. Amer. Math. Soc." }
+ @String{TransAMS = "Transactions of the American Mathematical Society" }
+ @String{TransAMS = "Trans. Amer. Math. Soc." }
+
+ %ACM
+ @String{CACM = "Communications of the {ACM}" }
+ @String{CACM = "Commun. {ACM}" }
+ @String{CompServ = "Comput. Surveys" }
+ @String{JACM = "J. ACM" }
+ @String{ACMMathSoft = "{ACM} Transactions on Mathematical Software" }
+ @String{ACMMathSoft = "{ACM} Trans. Math. Software" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newsletter" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newslett." }
+
+ @String{AmerSocio = "American Journal of Sociology" }
+ @String{AmerStatAssoc = "Journal of the American Statistical Association" }
+ @String{AmerStatAssoc = "J. Amer. Statist. Assoc." }
+ @String{ApplMathComp = "Applied Mathematics and Computation" }
+ @String{ApplMathComp = "Appl. Math. Comput." }
+ @String{AmerMathMonthly = "American Mathematical Monthly" }
+ @String{AmerMathMonthly = "Amer. Math. Monthly" }
+ @String{BIT = "{BIT}" }
+ @String{BritStatPsych = "British Journal of Mathematical and Statistical
+          Psychology" }
+ @String{BritStatPsych = "Brit. J. Math. Statist. Psych." }
+ @String{CanMathBull = "Canadian Mathematical Bulletin" }
+ @String{CanMathBull = "Canad. Math. Bull." }
+ @String{CompApplMath = "Journal of Computational and Applied Mathematics" }
+ @String{CompApplMath = "J. Comput. Appl. Math." }
+ @String{CompPhys = "Journal of Computational Physics" }
+ @String{CompPhys = "J. Comput. Phys." }
+ @String{CompStruct = "Computers and Structures" }
+ @String{CompStruct = "Comput. \& Structures" }
+ @String{CompJour = "The Computer Journal" }
+ @String{CompJour = "Comput. J." }
+ @String{CompSysSci = "Journal of Computer and System Sciences" }
+ @String{CompSysSci = "J. Comput. System Sci." }
+ @String{Computing = "Computing" }
+ @String{ContempMath = "Contemporary Mathematics" }
+ @String{ContempMath = "Contemp. Math." }
+ @String{Crelle = "Crelle's Journal" }
+ @String{GiornaleMath = "Giornale di Mathematiche" }
+ @String{GiornaleMath = "Giorn. Mat." } % didn't find in AMS MR., ibid.
+
+ %IEEE
+ @String{Computer = "{IEEE} Computer" }
+ @String{IEEETransComp = "{IEEE} Transactions on Computers" }
+ @String{IEEETransComp = "{IEEE} Trans. Comput." }
+ @String{IEEETransAC = "{IEEE} Transactions on Automatic Control" }
+ @String{IEEETransAC = "{IEEE} Trans. Automat. Control" }
+ @String{IEEESpec = "{IEEE} Spectrum" } % didn't find in AMS MR
+ @String{ProcIEEE = "Proceedings of the {IEEE}" }
+ @String{ProcIEEE = "Proc. {IEEE}" } % didn't find in AMS MR
+ @String{IEEETransAeroElec = "{IEEE} Transactions on Aerospace and Electronic
+     Systems" }
+ @String{IEEETransAeroElec = "{IEEE} Trans. Aerospace Electron. Systems" }
+
+ @String{IMANumerAna = "{IMA} Journal of Numerical Analysis" }
+ @String{IMANumerAna = "{IMA} J. Numer. Anal." }
+ @String{InfProcLet = "Information Processing Letters" }
+ @String{InfProcLet = "Inform. Process. Lett." }
+ @String{InstMathApp = "Journal of the Institute of Mathematics and
+     its Applications" }
+ @String{InstMathApp = "J. Inst. Math. Appl." }
+ @String{IntControl = "International Journal of Control" }
+ @String{IntControl = "Internat. J. Control" }
+ @String{IntNumerEng = "International Journal for Numerical Methods in
+     Engineering" }
+ @String{IntNumerEng = "Internat. J. Numer. Methods Engrg." }
+ @String{IntSuper = "International Journal of Supercomputing Applications" }
+ @String{IntSuper = "Internat. J. Supercomputing Applic." } % didn't find
+%% in AMS MR
+ @String{Kibernetika = "Kibernetika" }
+ @String{JResNatBurStand = "Journal of Research of the National Bureau
+     of Standards" }
+ @String{JResNatBurStand = "J. Res. Nat. Bur. Standards" }
+ @String{LinAlgApp = "Linear Algebra and its Applications" }
+ @String{LinAlgApp = "Linear Algebra Appl." }
+ @String{MathAnaAppl = "Journal of Mathematical Analysis and Applications" }
+ @String{MathAnaAppl = "J. Math. Anal. Appl." }
+ @String{MathAnnalen = "Mathematische Annalen" }
+ @String{MathAnnalen = "Math. Ann." }
+ @String{MathPhys = "Journal of Mathematical Physics" }
+ @String{MathPhys = "J. Math. Phys." }
+ @String{MathComp = "Mathematics of Computation" }
+ @String{MathComp = "Math. Comp." }
+ @String{MathScand = "Mathematica Scandinavica" }
+ @String{MathScand = "Math. Scand." }
+ @String{TablesAidsComp = "Mathematical Tables and Other Aids to Computation" }
+ @String{TablesAidsComp = "Math. Tables Aids Comput." }
+ @String{NumerMath = "Numerische Mathematik" }
+ @String{NumerMath = "Numer. Math." }
+ @String{PacificMath = "Pacific Journal of Mathematics" }
+ @String{PacificMath = "Pacific J. Math." }
+ @String{ParDistComp = "Journal of Parallel and Distributed Computing" }
+ @String{ParDistComp = "J. Parallel and Distrib. Comput." } % didn't find
+%% in AMS MR
+ @String{ParComputing = "Parallel Computing" }
+ @String{ParComputing = "Parallel Comput." }
+ @String{PhilMag = "Philosophical Magazine" }
+ @String{PhilMag = "Philos. Mag." }
+ @String{ProcNAS = "Proceedings of the National Academy of Sciences
+                    of the USA" }
+ @String{ProcNAS = "Proc. Nat. Acad. Sci. U. S. A." }
+ @String{Psychometrika = "Psychometrika" }
+ @String{QuartMath = "Quarterly Journal of Mathematics, Oxford, Series (2)" }
+ @String{QuartMath = "Quart. J. Math. Oxford Ser. (2)" }
+ @String{QuartApplMath = "Quarterly of Applied Mathematics" }
+ @String{QuartApplMath = "Quart. Appl. Math." }
+ @String{RevueInstStat = "Review of the International Statisical Institute" }
+ @String{RevueInstStat = "Rev. Inst. Internat. Statist." }
+
+ %SIAM
+ @String{JSIAM = "Journal of the Society for Industrial and Applied
+     Mathematics" }
+ @String{JSIAM = "J. Soc. Indust. Appl. Math." }
+ @String{JSIAMB = "Journal of the Society for Industrial and Applied
+     Mathematics, Series B, Numerical Analysis" }
+ @String{JSIAMB = "J. Soc. Indust. Appl. Math. Ser. B Numer. Anal." }
+ @String{SIAMAlgMeth = "{SIAM} Journal on Algebraic and Discrete Methods" }
+ @String{SIAMAlgMeth = "{SIAM} J. Algebraic Discrete Methods" }
+ @String{SIAMAppMath = "{SIAM} Journal on Applied Mathematics" }
+ @String{SIAMAppMath = "{SIAM} J. Appl. Math." }
+ @String{SIAMComp = "{SIAM} Journal on Computing" }
+ @String{SIAMComp = "{SIAM} J. Comput." }
+ @String{SIAMMatrix = "{SIAM} Journal on Matrix Analysis and Applications" }
+ @String{SIAMMatrix = "{SIAM} J. Matrix Anal. Appl." }
+ @String{SIAMNumAnal = "{SIAM} Journal on Numerical Analysis" }
+ @String{SIAMNumAnal = "{SIAM} J. Numer. Anal." }
+ @String{SIAMReview = "{SIAM} Review" }
+ @String{SIAMReview = "{SIAM} Rev." }
+ @String{SIAMSciStat = "{SIAM} Journal on Scientific and Statistical
+     Computing" }
+ @String{SIAMSciStat = "{SIAM} J. Sci. Statist. Comput." }
+
+ @String{SoftPracExp = "Software Practice and Experience" }
+ @String{SoftPracExp = "Software Prac. Experience" } % didn't find in AMS MR
+ @String{StatScience = "Statistical Science" }
+ @String{StatScience = "Statist. Sci." }
+ @String{Techno = "Technometrics" }
+ @String{USSRCompMathPhys = "{USSR} Computational Mathematics and Mathematical
+     Physics" }
+ @String{USSRCompMathPhys = "{U. S. S. R.} Comput. Math. and Math. Phys." }
+ @String{VLSICompSys = "Journal of {VLSI} and Computer Systems" }
+ @String{VLSICompSys = "J. {VLSI} Comput. Syst." }
+ @String{ZAngewMathMech = "Zeitschrift fur Angewandte Mathematik und
+     Mechanik" }
+ @String{ZAngewMathMech = "Z. Angew. Math. Mech." }
+ @String{ZAngewMathPhys = "Zeitschrift fur Angewandte Mathematik und Physik" }
+ @String{ZAngewMathPhys = "Z. Angew. Math. Phys." }
+
+% Publishers % ================================================= |
+
+ @String{Academic = "Academic Press" }
+ @String{ACMPress = "{ACM} Press" }
+ @String{AdamHilger = "Adam Hilger" }
+ @String{AddisonWesley = "Addison-Wesley" }
+ @String{AllynBacon = "Allyn and Bacon" }
+ @String{AMS = "American Mathematical Society" }
+ @String{Birkhauser = "Birkha{\"u}ser" }
+ @String{CambridgePress = "Cambridge University Press" }
+ @String{Chelsea = "Chelsea" }
+ @String{ClaredonPress = "Claredon Press" }
+ @String{DoverPub = "Dover Publications" }
+ @String{Eyolles = "Eyolles" }
+ @String{HoltRinehartWinston = "Holt, Rinehart and Winston" }
+ @String{Interscience = "Interscience" }
+ @String{JohnsHopkinsPress = "The Johns Hopkins University Press" }
+ @String{JohnWileySons = "John Wiley and Sons" }
+ @String{Macmillan = "Macmillan" }
+ @String{MathWorks = "The Math Works Inc." }
+ @String{McGrawHill = "McGraw-Hill" }
+ @String{NatBurStd = "National Bureau of Standards" }
+ @String{NorthHolland = "North-Holland" }
+ @String{OxfordPress = "Oxford University Press" }  %address Oxford or London?
+ @String{PergamonPress = "Pergamon Press" }
+ @String{PlenumPress = "Plenum Press" }
+ @String{PrenticeHall = "Prentice-Hall" }
+ @String{SIAMPub = "{SIAM} Publications" }
+ @String{Springer = "Springer-Verlag" }
+ @String{TexasPress = "University of Texas Press" }
+ @String{VanNostrand = "Van Nostrand" }
+ @String{WHFreeman = "W. H. Freeman and Co." }
+
+%Entries
+
+@article{reaves2017mo, 
+  title={Mo (bile) money, mo (bile) problems: Analysis of branchless banking applications},
+  author={Reaves, Bradley and Bowers, Jasmine and Scaife, Nolen and Bates, Adam and Bhartiya, Arnav and Traynor, Patrick and Butler, Kevin RB},
+  journal={ACM Transactions on Privacy and Security (TOPS)},
+  volume={20},
+  number={3},
+  pages={1--31},
+  year={2017},
+  publisher={ACM New York, NY, USA}
+}
+
+@article{wei2017survey, 
+  title={A survey on HTTPS implementation by Android apps: issues and countermeasures},
+  author={Wei, Xuetao and Wolf, Michael},
+  journal={Applied Computing and Informatics},
+  volume={13},
+  number={2},
+  pages={101--117},
+  year={2017},
+  publisher={Elsevier}
+}
+
+@article{rahman2016empirical, 
+  title={An empirical case study on Stack Overflow to explore developers’ security challenges},
+  author={Rahman, Muhammad Sajidur},
+  year={2016},
+  publisher={Kansas State University}
+}
+
+@article{martin2016survey, 
+  title={A survey of app store analysis for software engineering},
+  author={Martin, William and Sarro, Federica and Jia, Yue and Zhang, Yuanyuan and Harman, Mark},
+  journal={IEEE transactions on software engineering},
+  volume={43},
+  number={9},
+  pages={817--847},
+  year={2016},
+  publisher={IEEE}
+}
+
+@inproceedings{xie2011programmers, 
+  title={Why do programmers make security errors?},
+  author={Xie, Jing and Lipford, Heather Richter and Chu, Bill},
+  booktitle={2011 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC)},
+  pages={161--164},
+  year={2011},
+  organization={IEEE}
+}
+
+@inproceedings{witschey2015quantifying, 
+  title={Quantifying developers' adoption of security tools},
+  author={Witschey, Jim and Zielinska, Olga and Welk, Allaire and Murphy-Hill, Emerson and Mayhorn, Chris and Zimmermann, Thomas},
+  booktitle={Proceedings of the 2015 10th Joint Meeting on Foundations of Software Engineering},
+  pages={260--271},
+  year={2015}
+}
+
+@inproceedings{xiao2014social, 
+  title={Social influences on secure development tool adoption: why security tools spread},
+  author={Xiao, Shundan and Witschey, Jim and Murphy-Hill, Emerson},
+  booktitle={Proceedings of the 17th ACM conference on Computer supported cooperative work \& social computing},
+  pages={1095--1106},
+  year={2014}
+}
+
+@article{kang2018trustworthy, 
+  title={Trustworthy Smart Band: Security Requirement Analysis with Threat Modeling},
+  author={Kang, Suin and Kim, Hye Min and Kim, Huy Kang},
+  journal={arXiv preprint arXiv:1812.02361},
+  year={2018}
+}
+
+@article{shostack2008experiences, 
+  title={Experiences Threat Modeling at Microsoft.},
+  author={Shostack, Adam},
+  journal={MODSEC@ MoDELS},
+  volume={2008},
+  year={2008}
+}
+
+@article{shrivastava2008approach, 
+  title={An Approach To Web Application Threat Modeling},
+  author={Shrivastava, Akash},
+  journal={no. April},
+  year={2008}
+}
+
+@article{reskiconception, 
+  title={Conception and Development of a Threat Modeling Tool},
+  author={Reski, Tobias}
+}
+
+@inproceedings{tymchuk2018jit, 
+  title={JIT feedback: what experienced developers like about static analysis},
+  author={Tymchuk, Yuriy and Ghafari, Mohammad and Nierstrasz, Oscar},
+  booktitle={Proceedings of the 26th Conference on Program Comprehension},
+  pages={64--73},
+  year={2018}
+}
+
+@inproceedings{myagmar2005threat, 
+  title={Threat modeling as a basis for security requirements},
+  author={Myagmar, Suvda and Lee, Adam J and Yurcik, William},
+  booktitle={Symposium on requirements engineering for information security (SREIS)},
+  volume={2005},
+  pages={1--8},
+  year={2005},
+  organization={Citeseer}
+}
+
+@mastersthesis{rygge2019security, 
+  title={Security in Agile Software Development},
+  author={Rygge, Hanne},
+  year={2019}
+}
+
+@inproceedings{gao2018poster, 
+  title={Poster: On Vulnerability Evolution in Android Apps},
+  author={Gao, Jun and Li, Li and Kong, Pingfan and Bissyand{\'e}, Tegawend{\'e} F and Klein, Jacques},
+  booktitle={2018 IEEE/ACM 40th International Conference on Software Engineering: Companion (ICSE-Companion)},
+  pages={276--277},
+  year={2018},
+  organization={IEEE}
+}
+
+@inproceedings{oladimeji2006security, 
+  title={Security threat modeling and analysis: A goal-oriented approach},
+  author={Oladimeji, Ebenezer A and Supakkul, Sam and Chung, Lawrence},
+  booktitle={Proc. of the 10th IASTED International Conference on Software Engineering and Applications (SEA 2006)},
+  pages={13--15},
+  year={2006},
+  organization={Citeseer}
+}
+
+@inproceedings{thomas2016questions, 
+  title={What questions remain? an examination of how developers understand an interactive static analysis tool},
+  author={Thomas, Tyler W and Lipford, Heather and Chu, Bill and Smith, Justin and Murphy-Hill, Emerson},
+  booktitle={Twelfth Symposium on Usable Privacy and Security ($\{$SOUPS$\}$ 2016)},
+  year={2016}
+}
+
+@inproceedings{xiao2014social, 
+  title={Social influences on secure development tool adoption: why security tools spread},
+  author={Xiao, Shundan and Witschey, Jim and Murphy-Hill, Emerson},
+  booktitle={Proceedings of the 17th ACM conference on Computer supported cooperative work \& social computing},
+  pages={1095--1106},
+  year={2014}
+}
+
+@inproceedings{naiakshina2017developers, 
+  title={Why do developers get password storage wrong? A qualitative usability study},
+  author={Naiakshina, Alena and Danilova, Anastasia and Tiefenau, Christian and Herzog, Marco and Dechand, Sergej and Smith, Matthew},
+  booktitle={Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security},
+  pages={311--328},
+  year={2017}
+}
+
+@inproceedings{yang2019towards, 
+  title={Towards better utilizing static application security testing},
+  author={Yang, Jinqiu and Tan, Lin and Peyton, John and Duer, Kristofer A},
+  booktitle={2019 IEEE/ACM 41st International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP)},
+  pages={51--60},
+  year={2019},
+  organization={IEEE}
+}
+
+@inproceedings{wang2007threat, 
+  title={A threat model driven approach for security testing},
+  author={Wang, Linzhang and Wong, Eric and Xu, Dianxiang},
+  booktitle={Third International Workshop on Software Engineering for Secure Systems (SESS'07: ICSE Workshops 2007)},
+  pages={10--10},
+  year={2007},
+  organization={IEEE}
+}
+
+@article{harris2012privacy, 
+  title={Privacy and security concerns associated with mobile money applications in Africa},
+  author={Harris, Andrew and Goodman, Seymour and Traynor, Patrick},
+  journal={Wash. JL Tech. \& Arts},
+  volume={8},
+  pages={245},
+  year={2012},
+  publisher={HeinOnline}
+}
+
+@inproceedings{bhoraskar2014brahmastra, 
+  title={Brahmastra: Driving apps to test the security of third-party components},
+  author={Bhoraskar, Ravi and Han, Seungyeop and Jeon, Jinseong and Azim, Tanzirul and Chen, Shuo and Jung, Jaeyeon and Nath, Suman and Wang, Rui and Wetherall, David},
+  booktitle={23rd $\{$USENIX$\}$ Security Symposium ($\{$USENIX$\}$ Security 14)},
+  pages={1021--1036},
+  year={2014}
+}
+
+
+
+
+
+
+}
